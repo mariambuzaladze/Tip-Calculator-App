@@ -7,5 +7,59 @@
     <link rel="stylesheet" href="style.css" />
     <title>Tip Calculator App</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <img src="./images/logo.svg" alt="splitter logo" />
+
+      <div class="contant">
+        <div class="userInputs">
+          <div class="bill">
+            <p class="title">Bill</p>
+            <div class="input-div">
+              <img src="./images/icon-dollar.svg" alt="dollar icon" />
+              <input type="number" />
+            </div>
+          </div>
+
+          <div class="tip">
+            <p class="title">Select Tip %</p>
+            <div class="tip-buttons">
+              <button>5%</button>
+              <button>10%</button>
+              <button>15%</button>
+              <button>20%</button>
+              <button>25%</button>
+              <input type="number" />
+            </div>
+          </div>
+
+          <div class="people">
+            <p class="title">Number of People</p>
+            <div class="input-div">
+              <img src="./images/icon-person.svg" alt="person icon" />
+              <input type="number" />
+            </div>
+          </div>
+        </div>
+
+        <div class="output">
+          <div class="tip-amount-div">
+            <div class="text">
+              <p class="output-title">Tip Amount</p>
+              <p class="output-subtitle">/ person</p>
+            </div>
+            <span class="tip-amount">$0.00</span>
+          </div>
+
+          <div class="total-div">
+            <div class="text">
+              <p class="output-title">Total</p>
+              <p class="output-subtitle">/ person</p>
+            </div>
+            <span class="total">$0.00</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
