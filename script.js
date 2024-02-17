@@ -16,7 +16,7 @@ let errorMessage = document.getElementsByClassName("zero-people")[0];
 
 peopleInput.addEventListener("input", function () {
   peopleNum = Number(peopleInput.value);
-  if (peopleNum != 0) {
+  if (peopleNum !== 0) {
     tipCalculator();
   } else {
     errorMessage.style.display = "inline";
