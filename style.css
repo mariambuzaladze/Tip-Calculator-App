@@ -109,6 +109,17 @@ body {
   gap: 6px;
 }
 
+.titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zero-people {
+  font-weight: bold;
+  color: #e17457;
+  display: none;
+}
+
 .output {
   border-radius: 15px;
   background-color: #00474b;
